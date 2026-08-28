@@ -1,3 +1,14 @@
+<p align="center">
+  <a href="https://fxcn.com"><img src=".github/assets/logo.png" alt="FXCN" width="300"></a>
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-black"></a>
+  <a href="../../actions/workflows/verify.yml"><img alt="reproduce" src="https://github.com/fxcn-algorithm/algorithm/actions/workflows/verify.yml/badge.svg"></a>
+  <img alt="brokers" src="https://img.shields.io/badge/brokers-129-e0a422">
+  <img alt="reproducibility" src="https://img.shields.io/badge/reproduces-129%2F129-2ea043">
+</p>
+
 # fxcn 透明评分算法
 
 [fxcn.com](https://fxcn.com) 给外汇经纪商打分用的完整算法、规则文件与公开数据快照。

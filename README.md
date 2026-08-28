@@ -11,7 +11,7 @@
 不需要装任何依赖,Python 3.8+ 即可:
 
 ```bash
-git clone https://github.com/fxcn/fxcn-algorithm.git
+git clone https://github.com/fxcn-algorithm/algorithm.git
 cd fxcn-algorithm
 python3 tests/test_reproduce.py data/snapshot-2026-08-28.json
 ```

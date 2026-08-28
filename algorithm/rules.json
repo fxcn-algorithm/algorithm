@@ -1,0 +1,78 @@
+{
+  "algo_version": "v1",
+  "_comment": "规则与实现分离:改权重/改加减分只动这个文件,便于 RFC 逐条 diff。任何改动需按 rfc/ 流程公示 30 天。",
+
+  "weights": {
+    "regulation": 0.30,
+    "risk": 0.20,
+    "transparency": 0.20,
+    "reputation": 0.20,
+    "disclosure": 0.10
+  },
+  "dimension_base": 50,
+  "dimension_clip": [0, 100],
+
+  "regulation": {
+    "no_license": { "code": "REG_NONE", "delta": -50 },
+    "tier_delta": { "1": 30, "2": 12, "3": 3 },
+    "status_delta": {
+      "revoked":   -40,
+      "suspended": -25,
+      "expired":   -15,
+      "clone":     -30
+    },
+    "status_halve": ["unverified"],
+    "_note": "unverified 是把该牌照的加分减半(四舍五入),不是固定扣分。"
+  },
+
+  "enforcement": {
+    "_note": "监管处罚并入 regulation 维度,但在维度封顶之后才扣 —— 否则牌照多的大商对罚款免疫。仅 status=confirmed 计分。",
+    "base_penalty": {
+      "revocation": 45, "ban": 35, "suspension": 30, "fine": 20,
+      "restriction": 15, "alert": 12, "warning": 10, "censure": 8, "other": 6
+    },
+    "severity_multiplier": { "low": 0.5, "medium": 1.0, "high": 1.5, "critical": 2.0 },
+    "floor": -60.0,
+    "decay": {
+      "_note": "1 年内不衰减;之后每年 ×0.8,最低保留 0.25。",
+      "grace_years": 1, "factor": 0.8, "min": 0.25
+    }
+  },
+
+  "risk": {
+    "client_funds_segregated":     { "code": "RISK_FUND_SEG", "delta": 30 },
+    "negative_balance_protection": { "code": "RISK_NBP",      "delta": 10 },
+    "compensation_scheme":         { "code": "RISK_COMP",     "delta": 15 },
+    "margin_close_out_pct": {
+      "low":  { "code": "RISK_MCO_LOW",  "threshold_lt": 50, "delta": 5 },
+      "high": { "code": "RISK_MCO_HIGH", "threshold_gt": 80, "delta": -10 }
+    }
+  },
+
+  "transparency": {
+    "hq_matches_operation_true":  { "code": "TRANS_HQ_MATCH",    "delta": 20 },
+    "hq_matches_operation_false": { "code": "TRANS_HQ_OFFSHORE", "delta": -30 },
+    "shareholders_disclosed":     { "code": "TRANS_SHAREHOLDERS","delta": 15 },
+    "annual_report_url":          { "code": "TRANS_ANNUAL",      "delta": 20 }
+  },
+
+  "reputation": {
+    "min_reviews": 5,
+    "insufficient_code": "REP_INSUFFICIENT",
+    "formula": { "code": "REP_AVG_RATING", "pivot": 3.0, "scale": 12.5, "_note": "delta = (平均分 − 3.0) × 12.5,范围 −25 ~ +25" }
+  },
+
+  "disclosure": {
+    "risk_disclosure_url":   { "code": "DISC_RISK",   "delta": 30 },
+    "spread_history_url":    { "code": "DISC_SPREAD", "delta": 20 },
+    "order_flow_disclosure": { "code": "DISC_FLOW",   "delta": 25 }
+  },
+
+  "color_bands": {
+    "_note": "未评估的维度停留在基准 50,它代表『未知』而非『差』,不参与降档判断 —— 否则口碑长期无数据会让所有经纪商永远拿不到 green。",
+    "green":  { "total_gte": 85, "downgrade_to_yellow_if_min_assessed_dim_lt": 60 },
+    "yellow": { "total_gte": 60, "downgrade_to_red_if_regulation_lt": 30 },
+    "orange": { "total_gte": 30 },
+    "red":    { "total_lt": 30 }
+  }
+}

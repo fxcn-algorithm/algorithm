@@ -1,0 +1,23 @@
+name: reproduce
+
+# 复现性是本仓库的全部意义。每次 push / PR 都重跑一遍,
+# 一旦算法与公布的分数对不上,CI 立刻变红。
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: 用公开快照复现 fxcn.com 上的分数
+        run: |
+          for f in data/snapshot-*.json; do
+            echo "== $f =="
+            python3 tests/test_reproduce.py "$f"
+          done

@@ -1,0 +1,39 @@
+# GitHub 读到这个文件会在仓库页显示「Cite this repository」按钮,
+# Zenodo 归档时也会用它生成 DOI 元数据。
+# 引用格式是外链的载体 —— 别人引用我们时,链接就来了。
+cff-version: 1.2.0
+message: "If you use this algorithm or the accompanying data snapshots, please cite it as below."
+title: "FXCN forex broker rating algorithm"
+abstract: >-
+  Open-source scoring algorithm behind fxcn.com's forex broker ratings, with the
+  rule file, a zero-dependency reference implementation, and public data
+  snapshots. Every published score is independently reproducible: one command
+  recomputes all broker scores from the snapshot and compares them against the
+  live site, exiting non-zero if any single broker disagrees.
+type: software
+license: MIT
+version: 1.0.0
+date-released: "2026-08-28"
+url: "https://fxcn.com/algorithm"
+repository-code: "https://github.com/fxcn-algorithm/algorithm"
+authors:
+  - name: "FXCN"
+    website: "https://fxcn.com"
+keywords:
+  - forex
+  - broker rating
+  - financial regulation
+  - reproducible research
+  - open data
+  - investor protection
+references:
+  - type: data
+    title: "FXCN jurisdiction protection dataset"
+    abstract: >-
+      Retail client protection rules across 28 forex regulatory jurisdictions:
+      leverage caps, investor compensation schemes and negative balance
+      protection, each record carrying the regulator source URL and check date.
+    license: CC-BY-4.0
+    url: "https://fxcn.com/en/data"
+    authors:
+      - name: "FXCN"

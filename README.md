@@ -113,6 +113,19 @@ python3 algorithm/score.py your-data.json
 
 这些都会随数据补齐而变化,每次变化都会有新的快照与 CHANGELOG。
 
+## 配套开放数据
+
+算法的输入不止仓库里的快照。辖区规则本身也是公开数据集(**CC BY 4.0**,JSON + CSV):
+
+- **辖区保护规则** —— 28 个监管辖区的零售杠杆上限、投资者赔偿、负余额保护,
+  每条带监管机构来源 URL 与核对日期:https://fxcn.com/en/data
+- **经纪商牌照—辖区对照** —— 129 家的 190 张牌照分别在哪个辖区、是否离岸:
+  https://fxcn.com/data/licences.json
+
+引用本仓库请见 [CITATION.cff](CITATION.cff),或用:
+
+> FXCN (2026). *FXCN forex broker rating algorithm*, v1.0.0. https://github.com/fxcn-algorithm/algorithm
+
 ## 相关
 
 - 评分方法论(中文页):https://fxcn.com/algorithm

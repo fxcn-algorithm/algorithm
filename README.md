@@ -24,18 +24,20 @@
 ```bash
 git clone https://github.com/fxcn-algorithm/algorithm.git
 cd fxcn-algorithm
-python3 tests/test_reproduce.py data/snapshot-2026-08-28.json
+python3 tests/test_reproduce.py data/snapshot-2026-10-11.json
 ```
 
 它会用本仓库的算法重算快照里每一家的分数,逐家与 **fxcn.com 当时公布的分数**比对:
 
 ```
-快照      : data/snapshot-2026-08-28.json
-算法版本  : v1 · 快照日期 2026-08-28
-比对      : 129 家(跳过 0 家未评分)
+快照      : data/snapshot-2026-10-11.json
+算法版本  : v1 · 快照日期 2026-10-11
+比对      : 94 家(跳过 35 家未评分)
 
-✓ 129 家全部复现一致(总分、五个维度、颜色)
+✓ 94 家全部复现一致(总分、五个维度、颜色)
 ```
+
+35 家没有总分的原因见 [RFC-0001](rfc/0001-withdrawn-licences-and-scoring-scope.md)。每份快照只对应它自己那一天的分数；旧快照 `snapshot-2026-08-28.json` 仍可复现当天的 129 家。
 
 任何一家对不上,退出码就是非 0。**这就是「算法 100% 开源」的可执行版本** ——
 不是一句标语,是一条你能亲自跑的命令。
@@ -43,7 +45,7 @@ python3 tests/test_reproduce.py data/snapshot-2026-08-28.json
 想看单独一家的逐条加减分依据:
 
 ```bash
-python3 algorithm/score.py data/snapshot-2026-08-28.json ic-markets
+python3 algorithm/score.py data/snapshot-2026-10-11.json ic-markets
 ```
 
 ```
@@ -142,8 +144,8 @@ rules, reference implementation, and public data snapshots. **MIT licensed.**
 Verify we are not cheating, in 30 seconds, with no dependencies:
 
 ```bash
-python3 tests/test_reproduce.py data/snapshot-2026-08-28.json
-# ✓ 129 brokers reproduce exactly (total, all five dimensions, colour band)
+python3 tests/test_reproduce.py data/snapshot-2026-10-11.json
+# ✓ 94 brokers reproduce exactly; 35 records without a published total are skipped (see RFC-0001)
 ```
 
 The script recomputes every broker from the public snapshot and compares against the

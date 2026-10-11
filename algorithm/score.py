@@ -84,6 +84,10 @@ class Scorer:
             if st in rr["status_delta"]:
                 delta += rr["status_delta"][st]
                 reason += f",但牌照状态为 {st}"
+            elif st in rr.get("status_zero", []):
+                # 历史牌照已撤回:不计为现行许可(RFC-0001)
+                delta = 0
+                reason = f"历史 Tier {tier} 监管 ({code}) 牌照已撤回,不计为现行许可"
             elif st in rr["status_halve"]:
                 # 注意是「加分减半」,不是固定扣分
                 delta = php_round(delta / 2)

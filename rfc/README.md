@@ -49,4 +49,4 @@ fxcn.com 在 [/algorithm](https://fxcn.com/algorithm) 上承诺:
 
 ## 已有的 RFC
 
-暂无。`v1` 是初始版本。
+- [RFC-0001](0001-withdrawn-licences-and-scoring-scope.md)：撤回牌照记 0 分；35 个记录暂停评分（2026-10-11 补登记，未经 30 天公示，文中说明原因）。

@@ -22,7 +22,8 @@
       "clone":     -30
     },
     "status_halve": ["unverified"],
-    "_note": "unverified 是把该牌照的加分减半(四舍五入),不是固定扣分。"
+    "status_zero": ["withdrawn"],
+    "_note": "unverified 是把该牌照的加分减半(四舍五入),不是固定扣分。withdrawn(历史牌照已撤回)记 0 分,不计为现行许可,见 RFC-0001。"
   },
 
   "enforcement": {

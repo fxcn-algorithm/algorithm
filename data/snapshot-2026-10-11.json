@@ -1,0 +1,4551 @@
+{
+    "meta": {
+        "algo_version": "v1",
+        "snapshot_date": "2026-10-11",
+        "broker_count": 129,
+        "source": "https://fxcn.com",
+        "license": "MIT"
+    },
+    "brokers": [
+        {
+            "slug": "360t",
+            "name": "360T",
+            "name_en": "Deutsche Boerse 360T",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "aafx-trading",
+            "name": "AAFX Trading",
+            "name_en": "AAFX Trading",
+            "signals": {
+                "hq_matches_operation": false
+            },
+            "licenses": [
+                {
+                    "regulator_code": "SVG-FSA",
+                    "tier": 3,
+                    "license_status": "unverified",
+                    "license_no": "22455",
+                    "evidence_url": null
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 44.6,
+                "regulation": 52,
+                "risk": 50,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "orange"
+            }
+        },
+        {
+            "slug": "activtrades",
+            "name": "ActivTrades",
+            "name_en": "ActivTrades PLC",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true,
+                "negative_balance_protection": true,
+                "compensation_scheme": "FSCS"
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CMVM",
+                    "tier": 2,
+                    "license_status": "unverified",
+                    "license_no": "PSI 393",
+                    "evidence_url": "https://www.cmvm.pt"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "434413",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=001b000000MffKdAAJ"
+                },
+                {
+                    "regulator_code": "SCB",
+                    "tier": 2,
+                    "license_status": "active",
+                    "license_no": "199667 B",
+                    "evidence_url": "https://scb.gov.bs/wp-content/uploads/2026/10/SIA-Firms-as-at-30-September-2026-1.pdf"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 78.4,
+                "regulation": 98,
+                "risk": 100,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "acy-securities",
+            "name": "ACY Securities",
+            "name_en": "ACY Capital Australia",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "403863",
+                    "evidence_url": "https://connectonline.asic.gov.au/RegistrySearch/faces/landing/panelSearch.jspx?searchText=403863"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 69,
+                "regulation": 80,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "admirals",
+            "name": "Admirals",
+            "name_en": "Admirals Group AS",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true,
+                "negative_balance_protection": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "410681",
+                    "evidence_url": "https://connectonline.asic.gov.au/RegistrySearch/faces/landing/panelSearch.jspx?searchText=410681"
+                },
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "201/13",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37716/"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "595450",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=001b000000NMdhxAAD"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 77,
+                "regulation": 100,
+                "risk": 90,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "adss",
+            "name": "ADSS",
+            "name_en": "ADS Securities",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "withdrawn",
+                    "license_no": "577453",
+                    "evidence_url": "https://register.fca.org.uk/s/search?q=577453&type=Companies"
+                },
+                {
+                    "regulator_code": "SCA",
+                    "tier": 2,
+                    "license_status": "unverified",
+                    "license_no": "19200000113",
+                    "evidence_url": "https://www.uaecma.gov.ae/en"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 61.8,
+                "regulation": 56,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "alfa-forex",
+            "name": "Alfa-Forex",
+            "name_en": "Alfa Capital Holdings",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CBR",
+                    "tier": 2,
+                    "license_status": "active",
+                    "license_no": "077-13225-100000",
+                    "evidence_url": "https://www.cbr.ru"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 66.6,
+                "regulation": 62,
+                "risk": 80,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "alpari",
+            "name": "Alpari",
+            "name_en": "Alpari",
+            "signals": {
+                "hq_matches_operation": false
+            },
+            "licenses": [
+                {
+                    "regulator_code": "SVG-FSA",
+                    "tier": 3,
+                    "license_status": "unverified",
+                    "license_no": "20389",
+                    "evidence_url": null
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 44.6,
+                "regulation": 52,
+                "risk": 50,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "orange"
+            }
+        },
+        {
+            "slug": "alpha-trading",
+            "name": "Alpha Trading",
+            "name_en": "Alpha Trading Platforms",
+            "signals": {
+                "hq_matches_operation": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "amarkets",
+            "name": "AMarkets",
+            "name_en": "AMarkets Ltd",
+            "signals": {
+                "hq_matches_operation": false
+            },
+            "licenses": [
+                {
+                    "regulator_code": "FSA-SC",
+                    "tier": 3,
+                    "license_status": "unverified",
+                    "license_no": "SD061",
+                    "evidence_url": "https://fsaseychelles.sc/regulated-entities/capital-markets"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 44.6,
+                "regulation": 52,
+                "risk": 50,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "orange"
+            }
+        },
+        {
+            "slug": "avatrade",
+            "name": "AvaTrade",
+            "name_en": "AvaTrade",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true,
+                "negative_balance_protection": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "406684",
+                    "evidence_url": "https://www.avatrade.com/about-avatrade/why-avatrade/regulation"
+                },
+                {
+                    "regulator_code": "CBI",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "C53877",
+                    "evidence_url": "https://registers.centralbank.ie/FirmRegisterDataPage.aspx?firmReferenceNumber=C53877&register=32"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 77,
+                "regulation": 100,
+                "risk": 90,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "avenue",
+            "name": "Avenue",
+            "name_en": "Avenue Securities",
+            "signals": {
+                "hq_matches_operation": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "axi",
+            "name": "Axi",
+            "name_en": "Axi",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "318232",
+                    "evidence_url": "https://academy.axi.com/p/terms"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "509746",
+                    "evidence_url": "https://register.fca.org.uk/s/search?q=509746&type=Companies"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 75,
+                "regulation": 100,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "axitrader-au",
+            "name": "AxiTrader Australia",
+            "name_en": "AxiCorp Financial Services",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "ayondo",
+            "name": "Ayondo",
+            "name_en": "Ayondo Markets",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "BaFin",
+                    "tier": 1,
+                    "license_status": "unverified",
+                    "license_no": "unverified",
+                    "evidence_url": "https://portal.mvp.bafin.de/database/InstInfo/sucheForm.do?sucheButtonInstitut=Suche&institutName=ayondo"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 64.5,
+                "regulation": 65,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "bank-de-binary",
+            "name": "Banc de Binary (已停业)",
+            "name_en": "Banc de Binary",
+            "signals": {
+                "hq_matches_operation": false
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "withdrawn",
+                    "license_no": "188/13",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/former-investment-firms-cypriot/37701/"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 44,
+                "regulation": 50,
+                "risk": 50,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "orange"
+            }
+        },
+        {
+            "slug": "bdswiss",
+            "name": "BDSwiss",
+            "name_en": "BDSwiss Holding Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "withdrawn",
+                    "license_no": "199/13",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/former-investment-firms-cypriot/37650/"
+                },
+                {
+                    "regulator_code": "FSC-MU",
+                    "tier": 2,
+                    "license_status": "active",
+                    "license_no": "GB21026472",
+                    "evidence_url": "https://www.fscmauritius.org"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 63.6,
+                "regulation": 62,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "binary-com",
+            "name": "Deriv (前 Binary.com)",
+            "name_en": "Deriv Group",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "LFSA",
+                    "tier": 3,
+                    "license_status": "active",
+                    "license_no": "LL15870",
+                    "evidence_url": "https://www.labuanfsa.gov.my/financial-institutions-directory?f=6937a2e70f6995c77d871d37"
+                },
+                {
+                    "regulator_code": "MFSA",
+                    "tier": 2,
+                    "license_status": "active",
+                    "license_no": "IS/70156",
+                    "evidence_url": "https://www.mfsa.mt/news-item/mfsa-warning-deriv-investment-clone/"
+                },
+                {
+                    "regulator_code": "VFSC",
+                    "tier": 3,
+                    "license_status": "active",
+                    "license_no": "14556",
+                    "evidence_url": "https://www.vfsc.vu/financial-dealers-licensee-list"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 65.4,
+                "regulation": 68,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "bingx-fx",
+            "name": "BingX",
+            "name_en": "BingX",
+            "signals": {
+                "hq_matches_operation": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "blueberry-markets",
+            "name": "Blueberry Markets",
+            "name_en": "Blueberry Markets Pty Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "364411",
+                    "evidence_url": "https://connectonline.asic.gov.au/RegistrySearch/faces/landing/panelSearch.jspx?searchText=364411"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 69,
+                "regulation": 80,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "capital-com",
+            "name": "Capital.com",
+            "name_en": "Capital Com SV Investments Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true,
+                "negative_balance_protection": true,
+                "compensation_scheme": "ICF"
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "513393",
+                    "evidence_url": "https://capital.com/en-au/terms-and-policies"
+                },
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "319/17",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/42294/"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "793714",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=001b0000042g1LfAAI"
+                },
+                {
+                    "regulator_code": "FSA-SC",
+                    "tier": 3,
+                    "license_status": "unverified",
+                    "license_no": "SD085",
+                    "evidence_url": "https://capital.com/en-int/terms-and-policies"
+                },
+                {
+                    "regulator_code": "SCB",
+                    "tier": 2,
+                    "license_status": "active",
+                    "license_no": "SIA-F245",
+                    "evidence_url": "https://capital.com/en-int/terms-and-policies"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 79,
+                "regulation": 100,
+                "risk": 100,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "cboe-fx",
+            "name": "Cboe FX",
+            "name_en": "Cboe FX Markets",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "city-index",
+            "name": "City Index",
+            "name_en": "City Index (StoneX)",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "345646",
+                    "evidence_url": "https://www.forex.com/en-au/forex-com-2025/"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "113942",
+                    "evidence_url": "https://register.fca.org.uk/s/search?q=113942&type=Companies"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "446717",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=001b000000Mfgw3AAB"
+                },
+                {
+                    "regulator_code": "MAS",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "200400922K",
+                    "evidence_url": "https://eservices.mas.gov.sg/fid/institution/detail/2526-STONEX-FINANCIAL-PTE-LTD"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 78,
+                "regulation": 100,
+                "risk": 80,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "clear-corretora",
+            "name": "Clear Corretora",
+            "name_en": "Clear Corretora",
+            "signals": {
+                "hq_matches_operation": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "cmc-markets",
+            "name": "CMC Markets",
+            "name_en": "CMC Markets",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "client_funds_segregated": true,
+                "negative_balance_protection": true,
+                "compensation_scheme": "FSCS"
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "238054",
+                    "evidence_url": "https://www.cmcmarkets.com/en-au/important-information"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "173730",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=173730"
+                },
+                {
+                    "regulator_code": "MAS",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "200605050E",
+                    "evidence_url": "https://eservices.mas.gov.sg/fid/institution/detail/1596-CMC-MARKETS-SINGAPORE-PTE-LTD"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 82,
+                "regulation": 100,
+                "risk": 100,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "colmex-pro",
+            "name": "Colmex Pro",
+            "name_en": "Colmex Pro Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "comdirect",
+            "name": "comdirect",
+            "name_en": "comdirect bank",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "BaFin",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "BaFin-ID 100005",
+                    "evidence_url": "https://www.commerzbank.de/group/newsroom/press-releases/comdirect.html"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 72,
+                "regulation": 80,
+                "risk": 80,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "darwinex",
+            "name": "Darwinex",
+            "name_en": "Tradeslide Trading Tech Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "586466",
+                    "evidence_url": "https://register.fca.org.uk/s/search?q=586466&type=Companies"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 69,
+                "regulation": 80,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "degiro",
+            "name": "DEGIRO",
+            "name_en": "flatexDEGIRO Bank AG",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "AFM",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "BaFin-ID 119766 (EU passport, Dutch branch)",
+                    "evidence_url": "https://www.afm.nl/~/profmedia/files/maatregelen/boetes/2025/beslissing-op-bezwaar-flatexdegiro.pdf"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 69,
+                "regulation": 80,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "dmm-fx",
+            "name": "DMM.com Securities",
+            "name_en": "DMM.com Securities",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "FSA-JP",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "1629",
+                    "evidence_url": "https://www.fsa.go.jp/menkyo/menkyoj/kinyushohin.xlsx"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 69,
+                "regulation": 80,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "dukascopy",
+            "name": "Dukascopy Bank",
+            "name_en": "Dukascopy Bank",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "FINMA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "CHE-114.144.835",
+                    "evidence_url": "https://www.finma.ch/en/~/media/finma/dokumente/bewilligungstraeger/pdf/beh.pdf"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 72,
+                "regulation": 80,
+                "risk": 80,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "e-trade",
+            "name": "E*TRADE",
+            "name_en": "E*TRADE (Morgan Stanley)",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "easymarkets",
+            "name": "easyMarkets",
+            "name_en": "easyMarkets",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true,
+                "compensation_scheme": "ICF"
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "246566",
+                    "evidence_url": "https://connectonline.asic.gov.au/RegistrySearch/faces/landing/panelSearch.jspx?searchText=246566"
+                },
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "079/07",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37685/"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 78,
+                "regulation": 100,
+                "risk": 95,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "ebs",
+            "name": "EBS",
+            "name_en": "EBS Brokertec",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "eightcap",
+            "name": "Eightcap",
+            "name_en": "Eightcap Pty Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "391441",
+                    "evidence_url": "https://connectonline.asic.gov.au/RegistrySearch/faces/landing/panelSearch.jspx?searchText=391441"
+                },
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "246/14",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/40651/"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "921296",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=0014G00002TptadQAB"
+                },
+                {
+                    "regulator_code": "SCB",
+                    "tier": 2,
+                    "license_status": "active",
+                    "license_no": "SIA-F220",
+                    "evidence_url": "https://scb.gov.bs/wp-content/uploads/2026/10/SIA-Firms-as-at-30-September-2026-1.pdf"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 75,
+                "regulation": 100,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "equiti",
+            "name": "Equiti",
+            "name_en": "Equiti Group",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CMA-KE",
+                    "tier": 2,
+                    "license_status": "active",
+                    "license_no": "107",
+                    "evidence_url": "https://licensees.cma.or.ke/licenses/5/"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "528328",
+                    "evidence_url": "https://register.fca.org.uk/s/search?q=528328&type=Companies"
+                },
+                {
+                    "regulator_code": "FSA-SC",
+                    "tier": 3,
+                    "license_status": "active",
+                    "license_no": "SD031",
+                    "evidence_url": "https://fsaseychelles.sc/regulated-entities/capital-markets"
+                },
+                {
+                    "regulator_code": "SCA",
+                    "tier": 2,
+                    "license_status": "unverified",
+                    "license_no": "20200000133",
+                    "evidence_url": "https://www.uaecma.gov.ae/en"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 75,
+                "regulation": 100,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "errante",
+            "name": "Errante",
+            "name_en": "Errante Securities",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "383/20",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/86468/"
+                },
+                {
+                    "regulator_code": "FSA-SC",
+                    "tier": 3,
+                    "license_status": "active",
+                    "license_no": "SD038",
+                    "evidence_url": "https://fsaseychelles.sc/regulated-entities/capital-markets"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 69.9,
+                "regulation": 83,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "etoro",
+            "name": "eToro",
+            "name_en": "eToro",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true,
+                "negative_balance_protection": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "491139",
+                    "evidence_url": "https://www.etoro.com/customer-service/regulation-license/"
+                },
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "109/10",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37683/"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "583263",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=001b000000NMkLXAA1"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 77,
+                "regulation": 100,
+                "risk": 90,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "euronext-fx",
+            "name": "Euronext FX",
+            "name_en": "Euronext FX (FastMatch)",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "exinity",
+            "name": "Exinity",
+            "name_en": "Exinity Group",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "FSC-MU",
+                    "tier": 2,
+                    "license_status": "active",
+                    "license_no": "C113012295",
+                    "evidence_url": "https://www.fscmauritius.org"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 63.6,
+                "regulation": 62,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "exness",
+            "name": "Exness",
+            "name_en": "Exness",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "client_funds_segregated": true,
+                "negative_balance_protection": true,
+                "compensation_scheme": "ICF",
+                "margin_close_out_pct": 60
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "178/12",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37681/"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "730729",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=001b000003587sXAAQ"
+                },
+                {
+                    "regulator_code": "FSCA",
+                    "tier": 2,
+                    "license_status": "active",
+                    "license_no": "51024",
+                    "evidence_url": "https://www.exness.com/regulation/"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 82,
+                "regulation": 100,
+                "risk": 100,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "fbs",
+            "name": "FBS",
+            "name_en": "FBS",
+            "signals": {
+                "hq_matches_operation": false,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "331/17",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/44549/"
+                },
+                {
+                    "regulator_code": "IFSC-BZ",
+                    "tier": 3,
+                    "license_status": "unverified",
+                    "license_no": "000102/437",
+                    "evidence_url": "https://www.ifsc.gov.bz"
+                },
+                {
+                    "regulator_code": "IFSC-BZ",
+                    "tier": 3,
+                    "license_status": "active",
+                    "license_no": "000102/460",
+                    "evidence_url": "https://cdn.fbs.com/docs/aml_policy_th.pdf"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 60.5,
+                "regulation": 85,
+                "risk": 80,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "fbs-cy",
+            "name": "FBS CY",
+            "name_en": "Tradestone Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true,
+                "compensation_scheme": "ICF"
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 95,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "fidelity",
+            "name": "Fidelity",
+            "name_en": "Fidelity Investments",
+            "signals": {
+                "hq_matches_operation": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "finam",
+            "name": "Finam",
+            "name_en": "Finam Investment Holding",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "flatex",
+            "name": "flatex",
+            "name_en": "flatexDEGIRO Bank AG",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "BaFin",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "BaFin-ID 119766",
+                    "evidence_url": "https://portal.mvp.bafin.de/database/InstInfo/institutDetails.do?cmd=loadInstitutAction&institutId=119766"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 72,
+                "regulation": 80,
+                "risk": 80,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "forex-club",
+            "name": "Forex Club",
+            "name_en": "Forex Club International",
+            "signals": {
+                "hq_matches_operation": false
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "forex-com",
+            "name": "Forex.com",
+            "name_en": "Forex.com",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "345646",
+                    "evidence_url": "https://www.forex.com/en-au/terms-and-policies/"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "unverified",
+                    "license_no": "190864",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=001b000000MfHsbAAF"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "446717",
+                    "evidence_url": "https://www.forex.com/en-uk/terms-and-policies/risk-disclosure/"
+                },
+                {
+                    "regulator_code": "NFA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "0339826",
+                    "evidence_url": "https://www.forex.com/en-us/about-us/regulation/"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 75,
+                "regulation": 100,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "fortrade",
+            "name": "Fortrade",
+            "name_en": "Fortrade Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "493520",
+                    "evidence_url": "https://connectonline.asic.gov.au/RegistrySearch/faces/landing/panelSearch.jspx?searchText=493520"
+                },
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "385/20",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/86639/"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "609970",
+                    "evidence_url": "https://register.fca.org.uk/s/search?q=609970&type=Companies"
+                },
+                {
+                    "regulator_code": "FSCA",
+                    "tier": 2,
+                    "license_status": "active",
+                    "license_no": "49846",
+                    "evidence_url": "https://www.fsca.co.za"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 75,
+                "regulation": 100,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "fp-markets",
+            "name": "FP Markets",
+            "name_en": "FP Markets",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "286354",
+                    "evidence_url": "https://connectonline.asic.gov.au/RegistrySearch/faces/landing/panelSearch.jspx?searchText=286354"
+                },
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "371/18",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/82198/"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 75,
+                "regulation": 100,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "fxcm",
+            "name": "FXCM",
+            "name_en": "FXCM",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "309763",
+                    "evidence_url": "https://www.fxcm.com/au/legal/product-disclosure-statements/"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "217689",
+                    "evidence_url": "https://www.fca.org.uk/news/warnings/forex-capital-markets-ltd-clone"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 75,
+                "regulation": 100,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "fxgt",
+            "name": "FXGT",
+            "name_en": "360 Degrees Markets Ltd",
+            "signals": {
+                "hq_matches_operation": false
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "fxopen",
+            "name": "FXOpen",
+            "name_en": "FXOpen Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "revoked",
+                    "license_no": "412871",
+                    "evidence_url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2024-releases/24-194mr-asic-cancels-afs-licence-of-retail-otc-derivative-issuer-fxopen-au"
+                },
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "194/13",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37576/"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "579202",
+                    "evidence_url": "https://register.fca.org.uk/s/search?q=579202&type=Companies"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 75,
+                "regulation": 100,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "fxpro",
+            "name": "FxPro",
+            "name_en": "FxPro",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true,
+                "negative_balance_protection": true,
+                "compensation_scheme": "ICF"
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "078/07",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37670/"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "509956",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=001b000000NMTlsAAH"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 79,
+                "regulation": 100,
+                "risk": 100,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "fxtm",
+            "name": "FXTM",
+            "name_en": "ForexTime Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true,
+                "negative_balance_protection": true,
+                "compensation_scheme": "ICF"
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "withdrawn",
+                    "license_no": "185/12",
+                    "evidence_url": "https://www.cysec.gov.cy/CMSPages/GetFile.aspx?guid=95c5d5d3-df12-4157-bf03-d29b8a341336"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "unverified",
+                    "license_no": "777911",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=001b000003mzuMBAAY"
+                },
+                {
+                    "regulator_code": "FSC-MU",
+                    "tier": 2,
+                    "license_status": "active",
+                    "license_no": "C113012295",
+                    "evidence_url": "https://www.fxtm.com/search"
+                },
+                {
+                    "regulator_code": "FSCA",
+                    "tier": 2,
+                    "license_status": "unverified",
+                    "license_no": "46614",
+                    "evidence_url": "https://www.fsca.co.za"
+                },
+                {
+                    "regulator_code": "FSCA",
+                    "tier": 2,
+                    "license_status": "active",
+                    "license_no": "50320",
+                    "evidence_url": "https://www.fxtm.com/search"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 77.5,
+                "regulation": 95,
+                "risk": 100,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "global-prime",
+            "name": "Global Prime",
+            "name_en": "Global Prime Pty Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "385620",
+                    "evidence_url": "https://connectonline.asic.gov.au/RegistrySearch/faces/landing/panelSearch.jspx?searchText=385620"
+                },
+                {
+                    "regulator_code": "VFSC",
+                    "tier": 3,
+                    "license_status": "active",
+                    "license_no": "40256",
+                    "evidence_url": "https://www.vfsc.vu/financial-dealers-licensee-list"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 69.9,
+                "regulation": 83,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "gmo-click",
+            "name": "GMO Click Securities",
+            "name_en": "GMO Click Securities",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "FSA-JP",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "77",
+                    "evidence_url": "https://www.fsa.go.jp/menkyo/menkyoj/kinyushohin.xlsx"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 72,
+                "regulation": 80,
+                "risk": 80,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "go-markets",
+            "name": "GO Markets",
+            "name_en": "GO Markets Pty Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "254963",
+                    "evidence_url": "https://connectonline.asic.gov.au/RegistrySearch/faces/landing/panelSearch.jspx?searchText=254963"
+                },
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "322/17",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/42449/"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 75,
+                "regulation": 100,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "grand-capital",
+            "name": "Grand Capital",
+            "name_en": "Grand Capital Ltd",
+            "signals": {
+                "hq_matches_operation": false
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 29,
+                "regulation": 0,
+                "risk": 50,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "red"
+            }
+        },
+        {
+            "slug": "hf-markets-sa",
+            "name": "HF Markets SA",
+            "name_en": "HF Markets (SV) Ltd",
+            "signals": {
+                "hq_matches_operation": false
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "hirose",
+            "name": "Hirose Tusyo",
+            "name_en": "Hirose Tusyo Inc.",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "FSA-JP",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "41",
+                    "evidence_url": "https://www.fsa.go.jp/menkyo/menkyoj/kinyushohin.xlsx"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 69,
+                "regulation": 80,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "hotforex",
+            "name": "HotForex/HFM",
+            "name_en": "HF Markets",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true,
+                "compensation_scheme": "ICF"
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "183/12",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37662/"
+                },
+                {
+                    "regulator_code": "FSCA",
+                    "tier": 2,
+                    "license_status": "active",
+                    "license_no": "46632",
+                    "evidence_url": "https://www.fsca.co.za"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 75.6,
+                "regulation": 92,
+                "risk": 95,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "hycm",
+            "name": "HYCM",
+            "name_en": "HYCM",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true,
+                "negative_balance_protection": true,
+                "compensation_scheme": "FSCS"
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "withdrawn",
+                    "license_no": "259/14",
+                    "evidence_url": "https://www.cysec.gov.cy/CMSPages/GetFile.aspx?guid=cb9acce6-b862-4f3a-ba53-9c18f54b70d1"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "186171",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=001b000000MfHH0AAN"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 73,
+                "regulation": 80,
+                "risk": 100,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "ic-markets",
+            "name": "IC Markets",
+            "name_en": "IC Markets",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "client_funds_segregated": true,
+                "negative_balance_protection": true,
+                "margin_close_out_pct": 50,
+                "risk_disclosure_url": "https://www.ic.com/en/company/legal-documents",
+                "spread_history_url": "https://www.ic.com/en/trading-pricing/spreads",
+                "order_flow_disclosure": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "335692",
+                    "evidence_url": "https://service.asic.gov.au/search/EntityDetail?LicenceNumber=335692&PermissionType=Australian%20financial%20services%20licensees&licenceName=INTERNATIONAL%20CAPITAL%20MARKETS%20PTY.%20LTD."
+                },
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "362/18",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/80418/"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 85,
+                "regulation": 100,
+                "risk": 90,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 100,
+                "color": "green"
+            }
+        },
+        {
+            "slug": "icm-capital",
+            "name": "ICM Capital",
+            "name_en": "ICM Capital Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CMA-KE",
+                    "tier": 2,
+                    "license_status": "unverified",
+                    "license_no": "152",
+                    "evidence_url": "https://licensees.cma.or.ke/licenses/5/"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "withdrawn",
+                    "license_no": "520965",
+                    "evidence_url": "https://register.fca.org.uk/s/search?q=520965&type=Companies"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 61.8,
+                "regulation": 56,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "icmarkets-eu",
+            "name": "IC Markets EU",
+            "name_en": "IC Markets (EU) Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true,
+                "compensation_scheme": "ICF"
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "362/18",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/80418/"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 72,
+                "regulation": 80,
+                "risk": 95,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "ifc-markets",
+            "name": "IFC Markets",
+            "name_en": "IFC Markets",
+            "signals": {
+                "hq_matches_operation": false,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "withdrawn",
+                    "license_no": "147/11",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/former-investment-firms-cypriot/37657/"
+                },
+                {
+                    "regulator_code": "LFSA",
+                    "tier": 3,
+                    "license_status": "active",
+                    "license_no": "LL16237",
+                    "evidence_url": "https://www.labuanfsa.gov.my/financial-institutions-directory?f=6937a2e70f6995c77d871d37"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 50.9,
+                "regulation": 53,
+                "risk": 80,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "orange"
+            }
+        },
+        {
+            "slug": "ig",
+            "name": "IG Group",
+            "name_en": "IG Group",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "annual_report_url": "https://www.iggroup.com/investors",
+                "client_funds_segregated": true,
+                "negative_balance_protection": true,
+                "compensation_scheme": "FSCS",
+                "risk_disclosure_url": "https://www.ig.com/uk/risk-warning",
+                "order_flow_disclosure": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "220440",
+                    "evidence_url": "https://www.ig.com/usermanagement/customeragreements?agreementType=fianancial_service_guide&igCompany=igau&locale=en_GB"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "195355",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=195355"
+                },
+                {
+                    "regulator_code": "MAS",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "200510021K",
+                    "evidence_url": "https://eservices.mas.gov.sg/fid/institution/detail/1489-IG-ASIA-PTE-LTD"
+                },
+                {
+                    "regulator_code": "NFA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "0509630",
+                    "evidence_url": "https://www.nfa.futures.org/BasicNet/basic-profile.aspx?nfaid=63yZUF7iS4A%3D"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 90,
+                "regulation": 100,
+                "risk": 100,
+                "transparency": 100,
+                "reputation": 50,
+                "disclosure": 100,
+                "color": "green"
+            }
+        },
+        {
+            "slug": "ig-asia",
+            "name": "IG Asia",
+            "name_en": "IG Asia Pte Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "MAS",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "200510021Z",
+                    "evidence_url": "https://eservices.mas.gov.sg/fid/institution/detail/1489-IG-ASIA-PTE-LTD"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 69,
+                "regulation": 80,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "instaforex",
+            "name": "InstaForex",
+            "name_en": "InstaForex",
+            "signals": {
+                "hq_matches_operation": false
+            },
+            "licenses": [
+                {
+                    "regulator_code": "SVG-FSA",
+                    "tier": 3,
+                    "license_status": "unverified",
+                    "license_no": "24437",
+                    "evidence_url": null
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 44.6,
+                "regulation": 52,
+                "risk": 50,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "orange"
+            }
+        },
+        {
+            "slug": "interactive-brokers",
+            "name": "盈透证券",
+            "name_en": "Interactive Brokers",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "annual_report_url": "https://www.interactivebrokers.com/en/general/about/about.php",
+                "client_funds_segregated": true,
+                "compensation_scheme": "SIPC"
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "453554",
+                    "evidence_url": "https://www.interactivebrokers.com.au/en/home.php"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "208159",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=001b000000MfKjCAAV"
+                },
+                {
+                    "regulator_code": "MAS",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "CMS100917",
+                    "evidence_url": "https://eservices.mas.gov.sg/fid/institution/detail/230005-INTERACTIVE-BROKERS-SINGAPORE-PTE-LTD"
+                },
+                {
+                    "regulator_code": "NFA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "0258600",
+                    "evidence_url": "https://www.nfa.futures.org/BasicNet/basic-profile.aspx?nfaid=QHPcC3ptg%2FI%3D"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 84,
+                "regulation": 100,
+                "risk": 95,
+                "transparency": 100,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "iq-option",
+            "name": "IQ Option",
+            "name_en": "IQ Option",
+            "signals": {
+                "hq_matches_operation": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "247/14",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/40647/"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 63,
+                "regulation": 80,
+                "risk": 50,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "ironfx",
+            "name": "IronFX",
+            "name_en": "IronFX Global Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "125/10",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37655/"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "585561",
+                    "evidence_url": "https://register.fca.org.uk/s/search?q=585561&type=Companies"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 75,
+                "regulation": 100,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "jfd-bank",
+            "name": "JFD Bank",
+            "name_en": "JFD Group Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "justforex",
+            "name": "JustForex",
+            "name_en": "Just Markets Ltd",
+            "signals": {
+                "hq_matches_operation": false
+            },
+            "licenses": [
+                {
+                    "regulator_code": "FSA-SC",
+                    "tier": 3,
+                    "license_status": "active",
+                    "license_no": "SD088",
+                    "evidence_url": "https://fsaseychelles.sc/regulated-entities/capital-markets"
+                },
+                {
+                    "regulator_code": "FSC-MU",
+                    "tier": 2,
+                    "license_status": "active",
+                    "license_no": "GB22200316",
+                    "evidence_url": "https://www.fscmauritius.org"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 48.5,
+                "regulation": 65,
+                "risk": 50,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "orange"
+            }
+        },
+        {
+            "slug": "kgi-securities",
+            "name": "KGI Securities",
+            "name_en": "KGI Securities Co Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "FSC-TW",
+                    "tier": 1,
+                    "license_status": "unverified",
+                    "license_no": "unverified",
+                    "evidence_url": "https://www.fsc.gov.tw"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 64.5,
+                "regulation": 65,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "larson-holz",
+            "name": "Larson&Holz",
+            "name_en": "Larson&Holz IT Ltd",
+            "signals": {
+                "hq_matches_operation": false
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "lcg",
+            "name": "LCG",
+            "name_en": "London Capital Group",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "libertex",
+            "name": "Libertex",
+            "name_en": "Libertex Group",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "164/12",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37658/"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 69,
+                "regulation": 80,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "libertex-ru",
+            "name": "Libertex (CIS)",
+            "name_en": "Indication Investments Ltd",
+            "signals": {
+                "hq_matches_operation": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "lmax",
+            "name": "LMAX",
+            "name_en": "LMAX Exchange Group",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "509778",
+                    "evidence_url": "https://register.fca.org.uk/s/search?q=509778&type=Companies"
+                },
+                {
+                    "regulator_code": "MAS",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "S00FX001",
+                    "evidence_url": "https://eservices.mas.gov.sg/fid/institution/detail/419876-LMAX-PTE-LTD"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 75,
+                "regulation": 100,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "markets-com",
+            "name": "Markets.com",
+            "name_en": "Safecap Investments Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true,
+                "negative_balance_protection": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "092/08",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37601/"
+                },
+                {
+                    "regulator_code": "FSCA",
+                    "tier": 2,
+                    "license_status": "active",
+                    "license_no": "43906",
+                    "evidence_url": "https://www.fsca.co.za"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 74.6,
+                "regulation": 92,
+                "risk": 90,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "mfm-securities",
+            "name": "MFM Securities",
+            "name_en": "MFM Securities",
+            "signals": {
+                "hq_matches_operation": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "monex",
+            "name": "Monex Inc",
+            "name_en": "Monex Group",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "FSA-JP",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "165",
+                    "evidence_url": "https://www.fsa.go.jp/menkyo/menkyoj/kinyushohin.xlsx"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 72,
+                "regulation": 80,
+                "risk": 80,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "multibank",
+            "name": "MultiBank",
+            "name_en": "MultiBank Group",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "416279",
+                    "evidence_url": "https://connectonline.asic.gov.au/RegistrySearch/faces/landing/panelSearch.jspx?searchText=416279"
+                },
+                {
+                    "regulator_code": "BaFin",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "BaFin-ID 162420",
+                    "evidence_url": "https://portal.mvp.bafin.de/database/InstInfo/institutDetails.do?cmd=loadInstitutAction&institutId=162420"
+                },
+                {
+                    "regulator_code": "CIMA",
+                    "tier": 3,
+                    "license_status": "active",
+                    "license_no": "1442313",
+                    "evidence_url": "https://www.cima.ky"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 75,
+                "regulation": 100,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "naga",
+            "name": "NAGA",
+            "name_en": "NAGA Markets",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "204/13",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37704/"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 72,
+                "regulation": 80,
+                "risk": 80,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "nordfx",
+            "name": "NordFX",
+            "name_en": "NFX Capital VU Inc",
+            "signals": {
+                "hq_matches_operation": false
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "oanda",
+            "name": "OANDA",
+            "name_en": "OANDA",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "client_funds_segregated": true,
+                "negative_balance_protection": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "412981",
+                    "evidence_url": "https://www.oanda.com/au-en/legal/"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "542574",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=001b000000NMcEsAAL"
+                },
+                {
+                    "regulator_code": "MAS",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "200704926K",
+                    "evidence_url": "https://www.oanda.com/sg-en/trading/account-support/"
+                },
+                {
+                    "regulator_code": "NFA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "0325821",
+                    "evidence_url": "https://www.nfa.futures.org/BasicNet/basic-profile.aspx?nfaid=tDw0VT6Nt%2F8%3D"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 80,
+                "regulation": 100,
+                "risk": 90,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "octafx",
+            "name": "Octa",
+            "name_en": "Octa Markets Inc",
+            "signals": {
+                "hq_matches_operation": false
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "372/18",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/81668/"
+                },
+                {
+                    "regulator_code": "FSA-SC",
+                    "tier": 3,
+                    "license_status": "unverified",
+                    "license_no": "SD109",
+                    "evidence_url": "https://fsaseychelles.sc/regulated-entities/capital-markets"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 53.6,
+                "regulation": 82,
+                "risk": 50,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "orange"
+            }
+        },
+        {
+            "slug": "olymp-trade",
+            "name": "Olymp Trade",
+            "name_en": "Olymp Trade",
+            "signals": {
+                "hq_matches_operation": false
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "orbex",
+            "name": "Orbex",
+            "name_en": "Orbex Limited",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "pepperstone",
+            "name": "Pepperstone",
+            "name_en": "Pepperstone",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true,
+                "negative_balance_protection": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "414530",
+                    "evidence_url": "https://pepperstone.com/en-au/"
+                },
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "388/20",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/88151/"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "684312",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=684312"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 77,
+                "regulation": 100,
+                "risk": 90,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "phillip-securities",
+            "name": "Phillip Securities",
+            "name_en": "Phillip Securities Pte Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "MAS",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "197501035Z",
+                    "evidence_url": "https://eservices.mas.gov.sg/fid/institution/detail/244-PHILLIP-SECURITIES-PTE-LTD"
+                },
+                {
+                    "regulator_code": "SFC",
+                    "tier": 1,
+                    "license_status": "unverified",
+                    "license_no": "AAH443",
+                    "evidence_url": "https://apps.sfc.hk/publicregWeb/searchByName?locale=en"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 76.5,
+                "regulation": 95,
+                "risk": 80,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "plus500",
+            "name": "Plus500",
+            "name_en": "Plus500",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "client_funds_segregated": true,
+                "negative_balance_protection": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "417727",
+                    "evidence_url": "https://www.plus500.com/es-es/help/termsandagreements"
+                },
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "250/14",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/40631/"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "509909",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=509909"
+                },
+                {
+                    "regulator_code": "MAS",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "CMS100648",
+                    "evidence_url": "https://eservices.mas.gov.sg/fid/institution/detail/218424-PLUS500SG-PTE-LTD"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 80,
+                "regulation": 100,
+                "risk": 90,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "plus500-il",
+            "name": "Plus500 IL",
+            "name_en": "Plus500IL Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "pocket-option",
+            "name": "Pocket Option",
+            "name_en": "Pocket Option",
+            "signals": {
+                "hq_matches_operation": false
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "prime-xbt",
+            "name": "PrimeXBT",
+            "name_en": "Prime Technology Ltd",
+            "signals": {
+                "hq_matches_operation": false
+            },
+            "licenses": [
+                {
+                    "regulator_code": "FSA-SC",
+                    "tier": 3,
+                    "license_status": "unverified",
+                    "license_no": "SD025",
+                    "evidence_url": "https://fsaseychelles.sc/regulated-entities/capital-markets"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 44.6,
+                "regulation": 52,
+                "risk": 50,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "orange"
+            }
+        },
+        {
+            "slug": "questrade",
+            "name": "Questrade",
+            "name_en": "Questrade Inc",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CIRO",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "CIRO Investment Dealer",
+                    "evidence_url": "https://www.ciro.ca/office-investor/dealers-we-regulate?combine=Questrade"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 69,
+                "regulation": 80,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "quotex",
+            "name": "Quotex",
+            "name_en": "Quotex Inc.",
+            "signals": {
+                "hq_matches_operation": false
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "rakuten-securities",
+            "name": "Rakuten Securities",
+            "name_en": "Rakuten Securities",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "FSA-JP",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "195",
+                    "evidence_url": "https://www.fsa.go.jp/menkyo/menkyoj/kinyushohin.xlsx"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 72,
+                "regulation": 80,
+                "risk": 80,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "refinitiv-fxall",
+            "name": "Refinitiv FXall",
+            "name_en": "Refinitiv FXall",
+            "signals": {
+                "hq_matches_operation": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "robinhood",
+            "name": "Robinhood",
+            "name_en": "Robinhood Markets",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "client_funds_segregated": true,
+                "compensation_scheme": "SIPC"
+            },
+            "licenses": [
+                {
+                    "regulator_code": "FINRA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "165998",
+                    "evidence_url": "https://brokercheck.finra.org/firm/summary/165998"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 75,
+                "regulation": 80,
+                "risk": 95,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "roboforex",
+            "name": "RoboForex",
+            "name_en": "RoboForex Ltd",
+            "signals": {
+                "hq_matches_operation": false,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "191/13",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37606/"
+                },
+                {
+                    "regulator_code": "IFSC-BZ",
+                    "tier": 3,
+                    "license_status": "active",
+                    "license_no": "000138/210",
+                    "evidence_url": "https://www.ifsc.gov.bz"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 59.9,
+                "regulation": 83,
+                "risk": 80,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "orange"
+            }
+        },
+        {
+            "slug": "saxo-bank",
+            "name": "盛宝银行",
+            "name_en": "Saxo Bank",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "annual_report_url": "https://www.home.saxo/about-us/governance",
+                "client_funds_segregated": true,
+                "negative_balance_protection": true,
+                "compensation_scheme": "Danish Guarantee Fund"
+            },
+            "licenses": [
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "551422",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=001b000000NMcpXAAT"
+                },
+                {
+                    "regulator_code": "FSA-JP",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "239",
+                    "evidence_url": "https://www.home.saxo/legal/saxo-bank-licenses/saxo-bank-license-details"
+                },
+                {
+                    "regulator_code": "MAS",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "200601141M",
+                    "evidence_url": "https://eservices.mas.gov.sg/fid/institution/detail/1553-SAXO-CAPITAL-MARKETS-PTE-LTD"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 85,
+                "regulation": 100,
+                "risk": 100,
+                "transparency": 100,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "green"
+            }
+        },
+        {
+            "slug": "sbi-fx",
+            "name": "SBI FXTrade",
+            "name_en": "SBI Liquidity Market",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "FSA-JP",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "2635",
+                    "evidence_url": "https://www.fsa.go.jp/menkyo/menkyoj/kinyushohin.xlsx"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 72,
+                "regulation": 80,
+                "risk": 80,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "schwab",
+            "name": "Charles Schwab",
+            "name_en": "Charles Schwab",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "client_funds_segregated": true,
+                "compensation_scheme": "SIPC"
+            },
+            "licenses": [
+                {
+                    "regulator_code": "FINRA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "5393",
+                    "evidence_url": "https://brokercheck.finra.org/firm/summary/5393"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 75,
+                "regulation": 80,
+                "risk": 95,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "smart-prop",
+            "name": "SmartProp",
+            "name_en": "SmartProp",
+            "signals": {
+                "hq_matches_operation": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "spreadex",
+            "name": "Spreadex",
+            "name_en": "Spreadex Limited",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true,
+                "compensation_scheme": "FSCS"
+            },
+            "licenses": [
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "190941",
+                    "evidence_url": "https://register.fca.org.uk/s/search?q=190941&type=Companies"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 72,
+                "regulation": 80,
+                "risk": 95,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "superforex",
+            "name": "SuperForex",
+            "name_en": "SuperForex",
+            "signals": {
+                "hq_matches_operation": false
+            },
+            "licenses": [
+                {
+                    "regulator_code": "IFSC-BZ",
+                    "tier": 3,
+                    "license_status": "unverified",
+                    "license_no": "IFSC/60/271/TS/16",
+                    "evidence_url": "https://www.ifsc.gov.bz"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 44.6,
+                "regulation": 52,
+                "risk": 50,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "orange"
+            }
+        },
+        {
+            "slug": "swissmarkets",
+            "name": "Swiss Markets",
+            "name_en": "BDSwiss Trading Services",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "swissquote",
+            "name": "Swissquote",
+            "name_en": "Swissquote",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "annual_report_url": "https://www.swissquote.com/group/about/financials",
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "562170",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=001b000000NMbrgAAD"
+                },
+                {
+                    "regulator_code": "FINMA",
+                    "tier": 1,
+                    "license_status": "unverified",
+                    "license_no": "CHE-105.962.785",
+                    "evidence_url": "https://www.finma.ch/en/finma-public/authorised-institutions-individuals-and-products/"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 79.5,
+                "regulation": 95,
+                "risk": 80,
+                "transparency": 100,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "tastyworks",
+            "name": "tastytrade",
+            "name_en": "tastytrade",
+            "signals": {
+                "hq_matches_operation": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "NFA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "0492333",
+                    "evidence_url": "https://www.nfa.futures.org/BasicNet/basic-profile.aspx?nfaid=0492333"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 63,
+                "regulation": 80,
+                "risk": 50,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "thinkmarkets",
+            "name": "ThinkMarkets",
+            "name_en": "ThinkMarkets",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "424700",
+                    "evidence_url": "https://connectonline.asic.gov.au/RegistrySearch/faces/landing/panelSearch.jspx?searchText=424700"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "629628",
+                    "evidence_url": "https://register.fca.org.uk/s/search?q=629628&type=Companies"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 75,
+                "regulation": 100,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "tickmill",
+            "name": "Tickmill",
+            "name_en": "Tickmill",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true,
+                "compensation_scheme": "ICF"
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "278/15",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/74706/"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "717270",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=001b000001HjJatAAF"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 78,
+                "regulation": 100,
+                "risk": 95,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "trade-nation",
+            "name": "Trade Nation",
+            "name_en": "Trade Nation Limited",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "422661",
+                    "evidence_url": "https://connectonline.asic.gov.au/RegistrySearch/faces/landing/panelSearch.jspx?searchText=422661"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "525164",
+                    "evidence_url": "https://register.fca.org.uk/s/search?q=525164&type=Companies"
+                },
+                {
+                    "regulator_code": "SCB",
+                    "tier": 2,
+                    "license_status": "active",
+                    "license_no": "SIA-F215",
+                    "evidence_url": "https://www.scb.gov.bs"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 75,
+                "regulation": 100,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "trading212",
+            "name": "Trading 212",
+            "name_en": "Trading 212 Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true,
+                "negative_balance_protection": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "398/21",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/89835/"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "609146",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=001b000000NMi1QAAT"
+                },
+                {
+                    "regulator_code": "FSC-BG",
+                    "tier": 2,
+                    "license_status": "unverified",
+                    "license_no": "RG-03-0237",
+                    "evidence_url": "https://www.trading212.com/about-us"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 77,
+                "regulation": 100,
+                "risk": 90,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "ufx",
+            "name": "UFX",
+            "name_en": "Reliantco Investments Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "upstox",
+            "name": "Upstox",
+            "name_en": "RKSV Securities",
+            "signals": {
+                "hq_matches_operation": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "SEBI",
+                    "tier": 2,
+                    "license_status": "active",
+                    "license_no": "INZ000315837",
+                    "evidence_url": "https://bseindia.com/xml-data/corpfiling/AttachHis/3117f1bd-8653-40d1-962f-751a1165afb0.pdf"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 57.6,
+                "regulation": 62,
+                "risk": 50,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "orange"
+            }
+        },
+        {
+            "slug": "valutrades",
+            "name": "Valutrades",
+            "name_en": "Valutrades Limited",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "vantage",
+            "name": "Vantage",
+            "name_en": "Vantage",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "428901",
+                    "evidence_url": "https://connectonline.asic.gov.au/RegistrySearch/faces/landing/panelSearch.jspx?searchText=428901"
+                },
+                {
+                    "regulator_code": "VFSC",
+                    "tier": 3,
+                    "license_status": "active",
+                    "license_no": "700271",
+                    "evidence_url": "https://www.vfsc.vu/financial-dealers-licensee-list"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 69.9,
+                "regulation": 83,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "wealthsimple",
+            "name": "Wealthsimple",
+            "name_en": "Wealthsimple Inc",
+            "signals": {
+                "hq_matches_operation": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CIRO",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "CIRO Investment Dealer",
+                    "evidence_url": "https://www.ciro.ca/office-investor/dealers-we-regulate?combine=Wealthsimple"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 63,
+                "regulation": 80,
+                "risk": 50,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "webull",
+            "name": "Webull",
+            "name_en": "Webull Financial LLC",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true,
+                "compensation_scheme": "SIPC"
+            },
+            "licenses": [
+                {
+                    "regulator_code": "FINRA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "289063",
+                    "evidence_url": "https://brokercheck.finra.org/firm/summary/289063"
+                },
+                {
+                    "regulator_code": "SEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "8-69978",
+                    "evidence_url": "https://files.brokercheck.finra.org/firm/firm_289063.pdf"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 78,
+                "regulation": 100,
+                "risk": 95,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "weltrade",
+            "name": "WelTrade",
+            "name_en": "World Wide Trade Ltd",
+            "signals": {
+                "hq_matches_operation": false
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 50,
+                "transparency": 20,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "xm",
+            "name": "XM",
+            "name_en": "XM",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true,
+                "negative_balance_protection": true,
+                "compensation_scheme": "ICF"
+            },
+            "licenses": [
+                {
+                    "regulator_code": "ASIC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "443670",
+                    "evidence_url": "https://www.xm.com/assets/pdf/new/licenses/TradingPoint-Operation_License_ASIC.pdf"
+                },
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "120/10",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37582/"
+                },
+                {
+                    "regulator_code": "DFSA",
+                    "tier": 2,
+                    "license_status": "unverified",
+                    "license_no": "F003484",
+                    "evidence_url": "https://www.dfsa.ae/public-register/firms/trading-point-mena-limited"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 79,
+                "regulation": 100,
+                "risk": 100,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "xp-investimentos",
+            "name": "XP Investimentos",
+            "name_en": "XP Inc",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "BCB",
+                    "tier": 2,
+                    "license_status": "unverified",
+                    "license_no": "unverified",
+                    "evidence_url": "https://www.bcb.gov.br"
+                },
+                {
+                    "regulator_code": "CVM",
+                    "tier": 2,
+                    "license_status": "unverified",
+                    "license_no": "unverified",
+                    "evidence_url": "https://www.gov.br/cvm"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 66.6,
+                "regulation": 62,
+                "risk": 80,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "xtb",
+            "name": "XTB",
+            "name_en": "XTB S.A.",
+            "signals": {
+                "hq_matches_operation": true,
+                "shareholders_disclosed": true,
+                "client_funds_segregated": true,
+                "negative_balance_protection": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "CySEC",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "169/12",
+                    "evidence_url": "https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37686/"
+                },
+                {
+                    "regulator_code": "FCA",
+                    "tier": 1,
+                    "license_status": "active",
+                    "license_no": "522157",
+                    "evidence_url": "https://register.fca.org.uk/s/firm?id=001b000000NMI9WAAX"
+                },
+                {
+                    "regulator_code": "KNF",
+                    "tier": 2,
+                    "license_status": "active",
+                    "license_no": "DDM-M-4021-57-1/2005",
+                    "evidence_url": "https://www.xtb.com/cy/help-center/trading-account-2-2/how-is-xtb-limited-regulated"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 80,
+                "regulation": 100,
+                "risk": 90,
+                "transparency": 85,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "xtrade",
+            "name": "XTrade",
+            "name_en": "XTrade Europe Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": null,
+                "regulation": null,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "gray"
+            }
+        },
+        {
+            "slug": "zerodha",
+            "name": "Zerodha",
+            "name_en": "Zerodha Broking Ltd",
+            "signals": {
+                "hq_matches_operation": true,
+                "client_funds_segregated": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "SEBI",
+                    "tier": 2,
+                    "license_status": "active",
+                    "license_no": "INZ000031633",
+                    "evidence_url": "https://signup.zerodha.com"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 63.6,
+                "regulation": 62,
+                "risk": 80,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "yellow"
+            }
+        },
+        {
+            "slug": "zulutrade",
+            "name": "ZuluTrade",
+            "name_en": "ZuluTrade S.A.",
+            "signals": {
+                "hq_matches_operation": true
+            },
+            "licenses": [
+                {
+                    "regulator_code": "HCMC",
+                    "tier": 2,
+                    "license_status": "unverified",
+                    "license_no": "2/540/17.2.2010",
+                    "evidence_url": "https://www.hcmc.gr"
+                }
+            ],
+            "reviews": {
+                "count": 0,
+                "avg_rating": null
+            },
+            "enforcement_actions": [],
+            "published": {
+                "total": 55.8,
+                "regulation": 56,
+                "risk": 50,
+                "transparency": 70,
+                "reputation": 50,
+                "disclosure": 50,
+                "color": "orange"
+            }
+        }
+    ]
+}

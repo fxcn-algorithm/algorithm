@@ -6,7 +6,7 @@
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-black"></a>
   <a href="../../actions/workflows/verify.yml"><img alt="reproduce" src="https://github.com/fxcn-algorithm/algorithm/actions/workflows/verify.yml/badge.svg"></a>
   <img alt="brokers" src="https://img.shields.io/badge/brokers-129-e0a422">
-  <img alt="reproducibility" src="https://img.shields.io/badge/reproduces-129%2F129-2ea043">
+  <img alt="reproducibility" src="https://img.shields.io/badge/reproduces-94%2F94%20scored%20(2026--10--11)-2ea043">
 </p>
 
 # fxcn 透明评分算法

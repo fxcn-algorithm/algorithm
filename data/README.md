@@ -44,3 +44,7 @@ meta{ algo_version, snapshot_date, broker_count, source, license }
 
 它是**比对目标**,不是输入。`algorithm/score.py` 不读这个字段;
 `tests/test_reproduce.py` 用它来验证复现结果是否与官网一致。
+
+## 快照之间的数据变化
+
+- `snapshot-2026-10-26.json` 与 `snapshot-2026-10-11.json` 只有一处输入不同：XM 的 DFSA 牌照 F003484（Trading Point MENA Limited）由 `unverified` 改为 `active`，依据是 2026-10-26 查到的 DFSA 公开登记册。XM 的监管维度原本已封顶 100，所有公布分数不变。这是数据更正，不是规则变更，因此没有走 RFC。
